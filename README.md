@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: AbdulmelikKalkan/sync-fork-upstream@v1.2
+      - uses: AbdulmelikKalkan/sync-fork-upstream@v1.3
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
