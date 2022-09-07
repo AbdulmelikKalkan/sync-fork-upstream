@@ -12,5 +12,5 @@ inputs:
     description: 'The name of the branch which should be updated to match upstream.'
     required: true
 runs:
-  using: node18
+  using: node16
   main: action/index.js
