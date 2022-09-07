@@ -1,0 +1,16 @@
+---
+name: Sync Fork with Upstream
+description: 'Sync your forked repo with the upstream repository'
+inputs:
+  owner:
+    description: 'The account owner of the repository.'
+    required: true
+  repo:
+    description: 'The name of the repository.'
+    required: true
+  branch:
+    description: 'The name of the branch which should be updated to match upstream.'
+    required: true
+runs:
+  using: node18
+  main: action/index.js
