@@ -1,6 +1,10 @@
 ---
 name: Sync Fork with Upstream
 description: 'Sync your forked repo with the upstream repository'
+author: 'AbdulmelikKalkan'
+branding:
+  icon: 'git-branch'
+  color: 'gray-dark'
 inputs:
   owner:
     description: 'The account owner of the repository.'
